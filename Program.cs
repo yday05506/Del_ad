@@ -35,7 +35,10 @@ namespace Del_ad
 
         private static void ThesMethod()
         {
-            throw new NotImplementedException();
+            for (int i = 0; i < 1000; i++)
+            {
+                Console.Write("A");
+            }
         }
     }
 }
